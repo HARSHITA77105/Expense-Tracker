@@ -1,0 +1,71 @@
+/* ExpenseItem.css */
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #504e4e;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .item-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color:black;
+    color:white;
+    border-radius: 5px;
+    border:2px solid white;
+    font-weight: bold;
+  }
+  
+  .item-month {
+    font-size: 1.2rem;
+  }
+  
+  .item-year {
+    font-size: 0.9rem;
+  }
+  
+  .item-day {
+    font-size: 1.4rem;
+  }
+  
+  .item-title {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color:white;
+  }
+  
+  .item-amount {
+    flex: 1;
+    text-align: right;
+  
+    /* font-size: 1.2rem;
+    color:white; */
+  }
+
+
+.amount-square {
+    display: inline-block;
+    padding:5px 15px;
+    /* width: 120px;
+    height: 40px; */
+    background-color:rgb(100,11,100);
+    border:2px solid white;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size:20px;
+    line-height:1.2;
+  }
+
+  
